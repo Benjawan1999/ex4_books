@@ -5,7 +5,6 @@ import './index.css'
 document.addEventListener('DOMContentLoaded', function () {
     const cards = document.getElementById('card')
     const books = book.data
-    console.log(books);
     
     books.forEach(bookk => {
         let cardDOM = buildCardDOM(bookk)
